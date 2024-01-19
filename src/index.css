@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 104rem;
+  margin: 0 auto;
+  padding: 0rem 1.5rem;
+}
+.section {
+  margin-top: 10rem;
+}
+
+/* header */
+.header {
+  width: 100%;
+  height: 90vh;
+  background-image: url("../src/assets/images/Main\ Hero.png");
+  background-size: cover;
+}
+.nav {
+  width: 100%;
+  height: 9rem;
+}
+.nav_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo_img {
+  max-width: 80%;
+}
+.job-logo {
+  color: #fff;
+}
+.nav_list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.nav_item {
+  margin: 0rem 1rem;
+}
+.nav_link {
+  text-decoration: none;
+  color: #fff;
+}
+.nav_btn {
+  margin-left: 1.5rem;
+  padding: 1rem 4rem;
+  background-color: #ffde7f;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.header_container {
+  width: 65%;
+  height: calc(90vh - 9rem);
+  display: flex;
+  align-items: center;
+}
+.header_main_title {
+  font-size: 4.8rem;
+  line-height: 5rem;
+  color: #fff;
+}
+.header_p {
+  color: #fff;
+  margin: 2rem 0rem;
+}
+.header_form {
+  width: 100%;
+  background-color: #fff;
+  padding: 2.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  justify-content: space-between;
+}
+.header_select {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #333;
+}
+.header_btn {
+  padding: 1.2rem 2.2rem;
+  background-color: #ffde7f;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.header_tags {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_tag {
+  padding: 1.2rem;
+  width: 49%;
+  background-color: #ffde7f;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tag-2 {
+  margin-left: 1;
+}
+
+/* featured jobs */
+.section_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section_header_link {
+  color: #333;
+  text-decoration: none;
+}
+.features {
+  margin-top: 6rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 4rem;
+}
+.featured_card {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+.featured_img {
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+.card_body {
+  padding: 2rem;
+}
+.featured_p {
+  margin-bottom: 1rem;
+}
+.featured_icon_box {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.featured_icon {
+  color: rgb(90, 89, 89);
+  font-size: 20px;
+}
+.featured_btn {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 1.5rem;
+  border: none;
+  outline: none;
+  background-color: #04ade6;
+  color: #fff;
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
+
+/* join_us */
+.join_us {
+  width: 100%;
+  height: 34rem;
+  background-image: url("../src/assets/images/join-bg.png");
+}
+.join_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.join_content {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.join_title {
+  font-size: 4.8rem;
+  color: #fff;
+}
+.join_btn {
+  margin-top: 2rem;
+  padding: 1.5rem 3rem;
+  border: none;
+  outline: none;
+  background-color: #04ade6;
+  color: #fff;
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
+/* teams */
+.teams {
+  margin-top: 6rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+  grid-gap: 3rem;
+}
+.team_img {
+  width: 100%;
+}
+.team_p {
+  font-size: 1.4rem;
+}
+.team_content {
+  margin-top: 1rem;
+}
+.team_title {
+  color: #04ade6;
+}
+/* countries */
+.countries_container {
+  margin-top: 6rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  grid-gap: 2rem;
+}
+.country > img {
+  border-radius: 15px;
+  width: 100%;
+  height: 90%;
+}
+.country {
+  position: relative;
+}
+.country_content {
+  width: 90%;
+  position: absolute;
+  left: 1.2rem;
+  bottom: 1.2rem;
+  z-index: 99;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.country_details {
+  padding-bottom: 10px;
+}
+
+/* footer */
+.footer {
+  margin-top: 10rem;
+  width: 100%;
+  background-color: #003b4e;
+}
+.footer_text {
+  text-align: center;
+  padding: 1.2rem 0rem;
+  color: #fff;
+}
+
+/* auth */
+.auth {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+.auth_img {
+  width: 40%;
+  height: 100%;
+}
+.auth_img > img {
+  width: 100%;
+  height: 100%;
+}
+.auth_form {
+  width: 60%;
+  padding: 4rem 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form_back > a {
+  text-decoration: none;
+  color: #333;
+}
+form {
+  margin-top: 1rem;
+  width: 100%;
+}
+.form_group {
+  width: 100%;
+}
+.form_input {
+  padding: 1rem;
+  width: 100%;
+  margin-top: 2rem;
+  border: 1px solid #bfbfbf;
+  outline: none;
+  border-radius: 5px;
+}
+.form_btn {
+  margin-top: 3rem;
+  padding: 1.5rem 2.4rem;
+  background-color: #04ade6;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
